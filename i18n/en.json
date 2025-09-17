@@ -1,0 +1,8 @@
+{
+    "widget": {
+        "name": "Mi Widget",
+        "short_description": "Descripción corta",
+        "description": "Descripción completa",
+        "tour_description": "Descripción de Tour"
+    }
+}
