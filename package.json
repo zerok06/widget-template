@@ -1,0 +1,21 @@
+{
+  "name": "widget-template",
+  "version": "0.0.1",
+  "description": "Este repositorio está diseñado para el desarrollo de widgets en Kommo. Incluye configuraciones preestablecidas que facilitan y agilizan el proceso de creación.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && rm -rf widget.zip && mkdir dist && cp script.js dist/ && cp manifest.json dist/ && cp -r i18n dist/ && cp -r images dist/ && cp -r templates dist/ && cd dist && zip -r ../widget.zip . && cd .. && rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerok06/widget-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zerok06/widget-template/issues"
+  },
+  "homepage": "https://github.com/zerok06/widget-template#readme"
+}
