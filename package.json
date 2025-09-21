@@ -5,7 +5,7 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf dist && rm -rf widget.zip && mkdir dist && cp script.js dist/ && cp manifest.json dist/ && cp -r i18n dist/ && cp -r images dist/ && cp -r templates dist/ && cd dist && zip -r ../widget.zip . && cd .. && rm -rf dist"
+    "build": "node build-manifest.js && rm -rf dist && rm -rf widget.zip && mkdir dist && cp script.js dist/ && cp manifest.json dist/ && cp -r i18n dist/ && cp -r images dist/ && cp -r templates dist/ && cd dist && zip -r ../widget.zip . && cd .. && rm -rf dist && rm -rf manifest.json"
   },
   "repository": {
     "type": "git",

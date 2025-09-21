@@ -1,4 +1,4 @@
-{
+export const manifest = {
     "widget": {
         "name": "widget.name",
         "description": "widget.description",
@@ -17,16 +17,18 @@
         }
     },
     "locations": [
-        "ccard-1",
-        "clist-0",
-        "lcard-1",
-        "llist-0",
-        "settings",
-        "digital_pipeline",
-        "advanced_settings",
-        "salesbot_designer",
-        "sms",
-        "mobile_card"
+        "lcard-1", // Tarjeta de lead
+        "llist-0", // Listas de leads
+        "ccard-1", // Tarjeta de contacto
+        "clist-0", // Listas de contactos
+        "comcard-0", // Tarjeta de compañía
+        "card_sdk", // SDK de tarjeta (requiere lcard/ccard/comcard para funcionar con esas entidades)
+        "settings", // Página de instalación y configuración del widget
+        "digital_pipeline", // Configuración del embudo digital
+        "lead_sources", // Fuentes de leads
+        "catalogs", // SDK de listas
+        "advanced_settings", // Página de configuración avanzada del widget
+        "ai_agent" // El widget se muestra en el bloque de configuración del agente de IA
     ],
     "tour": {
         "is_tour": true,
