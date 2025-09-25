@@ -30,8 +30,8 @@ export const manifest = {
         "advanced_settings", // Página de configuración avanzada del widget
         "ai_agent" // El widget se muestra en el bloque de configuración del agente de IA
     ],
-    "tour": {
-        "is_tour": true,
+    /* "tour": {
+        "is_tour": true, // Si se habilita el tour
         "tour_images": {
             "en": [
                 "/images/tour_1_en.png",
@@ -45,7 +45,7 @@ export const manifest = {
             ]
         },
         "tour_description": "widget.tour_description"
-    },
+    }, */
     "settings": {
         "login": {
             "name": "settings.login",
@@ -63,7 +63,7 @@ export const manifest = {
             "required": true
         }
     },
-    "dp": {
+    /* "dp": {
         "settings": {
             "message": {
                 "name": "dp.message",
@@ -73,11 +73,11 @@ export const manifest = {
         },
         "action_multiple": false,
         "webhook_url": "https://example.com/webhook"
-    },
-    "advanced": {
+    }, */
+    /* "advanced": {
         "title": "advanced.title"
-    },
-    "salesbot_designer": {
+    }, */
+    /* "salesbot_designer": {
         "handler_code": {
             "name": "salesbot.handler_name",
             "settings": {
@@ -107,12 +107,9 @@ export const manifest = {
                 }
             }
         }
-    },
-    "sms": {
+    }, */
+    /* "sms": {
         "endpoint": "https://example.com/sms_endpoint"
-    },
-    "mobile": {
-        "frame_url": "https://example.com/",
-        "color": "#ffff00"
-    }
+    }, */
+    /* w */
 }
